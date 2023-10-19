@@ -25,9 +25,9 @@ int main(int argc, char *argv[])
 
     // Adding widgets to the layout
     mainLayout->addWidget(label1, 0, 0, 1, 3);
-    mainLayout->addWidget(bPlay, 1, 0);
-    mainLayout->addWidget(bSet, 1, 1);
-    mainLayout->addWidget(bQuit, 1, 2);
+    mainLayout->addWidget(bPlay, 1, 0,1,1);
+    mainLayout->addWidget(bSet, 2, 0);
+    mainLayout->addWidget(bQuit, 3, 0);
 
     // Set the layout on the main window
     mainWindow->setLayout(mainLayout);
