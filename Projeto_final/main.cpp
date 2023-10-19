@@ -1,14 +1,13 @@
+#include "mainwindow.h"
+
 #include <QApplication>
-#include <QLabel>
 #include <QPushButton>
-#include <QWidget>
-#include <QHBoxLayout>
-#include <QLineEdit>
+#include <QLabel>
+#include <QLayout>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
     QWidget *mainWindow = new QWidget();
     mainWindow->setWindowTitle("Xadrezinho dicria");
     mainWindow->showFullScreen();
@@ -19,9 +18,9 @@ int main(int argc, char *argv[])
 
     // Buttons
     QPushButton *bPlay = new QPushButton("New Game");
-    QObject::connect(bPlay, SIGNAL(clicked()), &a, SLOT(quit()));
+    QObject::connect(bPlay, SIGNAL(clicked()), &a, SLOT( ));
     QPushButton *bSet = new QPushButton("Settings");
-    QObject::connect(bSet, SIGNAL(clicked()), &a, SLOT(quit()));
+    QObject::connect(bSet, SIGNAL(clicked()), &a, SLOT(open() ));
     QPushButton *bQuit = new QPushButton("Quit");
     QObject::connect(bQuit, SIGNAL(clicked()), &a, SLOT(quit()));
     QGridLayout *mainLayout = new QGridLayout();
@@ -37,5 +36,7 @@ int main(int argc, char *argv[])
 
     // showing main window
     mainWindow->show();
+    /*MainWindow w;
+    w.show();*/
     return a.exec();
 }
