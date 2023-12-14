@@ -23,5 +23,7 @@ Um temporizador (QTimer) é usado para verificar periodicamente se o jogo precis
 
 
 Diagramas: 
-[Projeto_casos_uso.drawio.pdf](https://github.com/Jaquees/Projeto_Final_PRG22107/files/13672454/Projeto_casos_uso.drawio.pdf)
-[Diagrama_Classes.drawio.pdf](https://github.com/Jaquees/Projeto_Final_PRG22107/files/13672455/Diagrama_Classes.drawio.pdf)
+Casos de uso
+O player inicia o jogo clicando no executável, após o jogo abrir ele pode começar a jogar, também pode resetar o jogo.
+Dentro do move ele pode mover uma peça,capturar uma peça ou promover para uma dama.
+O jogo finaliza quando um jogador não tem mais peças no tabuleiro. 
