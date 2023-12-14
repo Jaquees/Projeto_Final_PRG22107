@@ -4,8 +4,6 @@ Inicialização do Jogo:
 
     Estrutura do Tabuleiro: O tabuleiro é representado por uma matriz bidimensional (gameBoard). Cada posição do tabuleiro é identificada por um par de coordenadas (coluna, linha). A inicialização do tabuleiro ocorre na função resetBoard.
 
-    Interface Gráfica: A interface gráfica é gerenciada pela biblioteca Qt. A cena (QGraphicsScene) exibe o tabuleiro e as peças, enquanto a classe GraphicsView é responsável por renderizar a cena.
-
 Lógica do Jogo:
 
     Movimentos e Estado do Jogo: O estado do jogo é controlado pelas variáveis, playerTurn indica de quem é a vez de jogar (branco ou vermelho). boardLayout define o layout do tabuleiro, e gameStatus indica o estado do jogo (por exemplo, se há um movimento válido, vitória branca, vitória preta, empate).
