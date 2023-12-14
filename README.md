@@ -1,5 +1,6 @@
 # Projeto_Final_PRG22107
 Damas
+
 Inicialização do Jogo:
 
 Estrutura do Tabuleiro: O tabuleiro é representado por uma matriz bidimensional (gameBoard). Cada posição do tabuleiro é identificada por um par de coordenadas (coluna, linha). A inicialização do tabuleiro ocorre na função resetBoard.
